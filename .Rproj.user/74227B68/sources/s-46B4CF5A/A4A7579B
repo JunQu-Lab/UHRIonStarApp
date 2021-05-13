@@ -1,0 +1,25 @@
+{
+    "id": "A4A7579B",
+    "path": "~/Desktop/Russell/Qu lab/UHR_IonStar_app/UHR_IonStar_1.5/UHR.IonStar/R/SourceFunc.R",
+    "project_path": "R/SourceFunc.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1620918728540.0,
+    "source_on_save": false,
+    "relative_order": 9,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "117,0",
+        "scrollLine": "64"
+    },
+    "folds": "8|77|61|0|\n64|29|88|0|\n90|94|116|0|\n118|81|161|0|\n164|85|285|0|\n288|62|417|0|\n420|57|473|0|\n476|68|498|0|\n501|52|655|0|\n658|41|693|0|\n696|43|727|0|\n",
+    "lastKnownWriteTime": 1620919636,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1620919636325,
+    "read_only": false,
+    "read_only_alternatives": []
+}
