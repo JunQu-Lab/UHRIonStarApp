@@ -8,7 +8,7 @@
 
 
 UHRIonStarShiny <- function(){
-  options(shiny.maxRequestSize=20000*1024^2)
+  options(shiny.maxRequestSize=100000*1024^2)
   appDir <- system.file("shiny", "UHRIonStar",package = "UHR.IonStar")
   if (appDir == "") {
     stop("Could not find UI directory. Try re-installing `UHR.IonStar`.", call. = FALSE)

@@ -19,6 +19,7 @@ Imports:
  DO.db,
  shiny,
  shinydashboard,
+ tcltk,
  DT,
  knitr,
  devtools,
@@ -29,12 +30,19 @@ Imports:
  seqinr,
  RSQLite,
  stringr,
+ tcltk,
+ rChoiceDialogs,
  limma,
  TCGAbiolinks,
  clusterProfiler,
  AnnotationHub,
- RDAVIDWebService,
- ggrepel
+ ggrepel,
+ MSGFplus,
+ mzR,
+ MSnbase,
+ xcms,
+ CAMERA,
+ patRoon
 VignetteBuilder: knitr
 Suggests: 
     rmarkdown
