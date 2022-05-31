@@ -49,4 +49,3 @@ User can download the manual either at the mainpage of UHR-IonStar application o
 [Shen, Xiaomeng, et al. "IonStar enables high-precision, low-missing-data proteomics quantification in large biological cohorts." Proceedings of the National Academy of Sciences 115.21 (2018): E4767-E4776.](https://www.pnas.org/content/115/21/E4767.short)
 
 [Wang, Xue, et al. "Ultra-High-Resolution IonStar Strategy Enhancing Accuracy and Precision of MS1-Based Proteomics and an Extensive Comparison with State-of-the-Art SWATH-MS in Large-Cohort Quantification." Analytical chemistry 93.11 (2021): 4884-4893.](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.0c05002?casa_token=12l8WRigfZ0AAAAA:0qwzMnfjpE2stVCpMYKICmvqwofN15Q6ItzDZ7ATFY3m3aFI6oSzB1z20CJGzzwASyaegR5POgS8xA)
-![image](https://user-images.githubusercontent.com/59838185/171267509-2e6adec5-b0c0-471b-8e5b-278ac8b13ad5.png)
