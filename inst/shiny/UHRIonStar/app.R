@@ -1,6 +1,4 @@
 
-library(shiny)
-library(shinydashboard)
 options(shiny.maxRequestSize=20000*1024^2)
 ### Define UI ----
 ui <- dashboardPage(
@@ -21,9 +19,7 @@ ui <- dashboardPage(
         tags$head(
             tags$style(
                 "body{
-          min-height: 800px;
           height: auto;
-          min-width: 1600px;
           margin: auto;
 }"
             )

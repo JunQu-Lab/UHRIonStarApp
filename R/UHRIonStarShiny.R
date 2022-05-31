@@ -2,7 +2,6 @@
 #'
 #' These functions initiate the R shiny app 'UHR-IonStar'.
 #'
-#'
 #' @export
 #'
 

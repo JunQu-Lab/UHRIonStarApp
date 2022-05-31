@@ -2,7 +2,6 @@
 #'
 #' This part contains MSGF+ database searching modules integrated in UHR-IonStar application.
 #'
-#'
 #' @param path the location containing .raw files and .fasta database
 #' @param msgfpar specified parameters for MSGF+
 #' @param msgfpath the location containing MSGF+ java file
@@ -37,7 +36,7 @@ DBsearching <- function (path, msgfpar, msgfpath){
 
 modi_names <- c('Carbamidomethyl','Oxidation','Deamidated','Methyl','Acetyl','Phospho',
                 'Glu->pryo-Glu','Gln->pryo-Glu')
-modification_list=list(
+modification_list <- list(
   list(name='Carbamidomethyl',
        composition='C2H3N1O1',
        residues='C',

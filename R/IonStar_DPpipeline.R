@@ -34,7 +34,7 @@ IonStar_DPpipeline <- function(raw, cond, log2form = TRUE, norm_method, TIC_type
   output$notice <- 'Protein Quantification is finished!'
   return(output)
 }
-
+#' @export
 Frame_redundant_RM <- function(df){
   df <- unique(df)
   message(paste("Input", length(unique(df[, 1])), "proteins."))
@@ -49,6 +49,7 @@ Frame_redundant_RM <- function(df){
   return(df)
 }
 
+#' @export
 Frame_norm <- function(mat, log2form = FALSE, method, TICtype = 'old'){
   col.names <- colnames(mat)
   row.names <- rownames(mat)
@@ -83,6 +84,7 @@ Frame_norm <- function(mat, log2form = FALSE, method, TICtype = 'old'){
   return(mat)
 }
 
+#' @export
 RevisedOutR <- function(mat, frame = TRUE, condition, variance = 0.7, critM1 = 1/3, critM2 = 1/4, method = "center") {
   fData <- strsplit(rownames(mat),'\\;')
   fData <- data.frame(do.call(rbind,fData))
@@ -141,6 +143,7 @@ RevisedOutR <- function(mat, frame = TRUE, condition, variance = 0.7, critM1 = 1
   return(as.matrix(new_df[,-c(1:2)]))
 }
 
+#' @export
 Frame_aggre <- function(mat){
   mat <- 2^mat
   fData <- strsplit(rownames(mat),'\\;')
@@ -153,6 +156,7 @@ Frame_aggre <- function(mat){
   return(log2(as.matrix(PData)))
 }
 
+#' @export
 Pep_aggre <- function(mat, method = "sum", log2 = TRUE){
   SID <- colnames(mat)
   fData <- rownames(mat)
@@ -166,6 +170,7 @@ Pep_aggre <- function(mat, method = "sum", log2 = TRUE){
   return(quan)
 }
 
+#' @export
 qmodel <- function (dfm1, method = "sum", log2 = TRUE){
   if (method == "fit" & log2 == TRUE) {
     lm1 <- NA

@@ -8,7 +8,6 @@
 #' @export
 
 
-# Quality Illstration
 Quality_check <- function(quan, group){
   quan <- as.data.frame(quan)
   quan$PepNum <- NULL

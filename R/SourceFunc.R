@@ -4,8 +4,6 @@
 #'
 #'
 #' @export
-
-### Data Processing, Ratio_p
 Ratio_p <- function(quan, group, decoy, control_group=NA, test_type="t", equalVar = TRUE){
   withProgress(message = 'Protein Quantification', value = 0, {
     incProgress(0.5, detail = 'statistical testing...')
@@ -98,7 +96,7 @@ Ratio_p <- function(quan, group, decoy, control_group=NA, test_type="t", equalVa
 })
 }
 
-### Data Visualization, plot_for_all
+#' @export
 plot_for_all <- function(quan, group, plot_selection, Group1, Group2){
   quan <- 2^quan
   ave_df <- as.data.frame(avearrays(quan, ID=group$GroupID, weights = NULL))
@@ -211,7 +209,7 @@ plot_for_all <- function(quan, group, plot_selection, Group1, Group2){
 
 }
 
-### Data Visualization, plot_ratio_distribution
+#' @export
 plot_ratio_distribution <- function(ave_ratio, group, selected, dist_corr){
   outputs <- list()
   group_char <- unique(group$GroupID)
@@ -253,7 +251,7 @@ plot_ratio_distribution <- function(ave_ratio, group, selected, dist_corr){
 
 }
 
-### Discovery of Changes, sign_changes
+#' @export
 sign_changes <- function(quan_all, test_type, chosen_group, R_cutoff=1.4, p_cutoff=0.05){
   outputs <- list()
   if(test_type %in% c("Original t-test","Paired t-test","Wilcoxon signed-rank test")){
@@ -283,7 +281,7 @@ sign_changes <- function(quan_all, test_type, chosen_group, R_cutoff=1.4, p_cuto
 
 }
 
-### Discovery of Changes, plot_for_all2
+#' @export
 plot_for_all2 <- function(sig_list, quan, plot_selection,TOPx = 50){
   quan_up <- sig_list$quan_up
   quan_down <- sig_list$quan_down
